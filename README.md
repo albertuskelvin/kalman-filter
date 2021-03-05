@@ -105,7 +105,7 @@ Suppose we're going to estimate the true value of position & velocity of a movin
 
 Here are the general steps in applying Kalman filter. Note that variables with all capital letters denote matrix (ex: `VAR_NAME` refers to a matrix called `VAR_NAME`)
 
-- Fill in all the required input values in <a href="https://github.com/albertuskelvin/kalman-filter/blob/master/kalman_filter/constants/dynamic_state_constants.py">DynamicStateMultipleTrueValues1D</a>
+- Fill in all the required input values in <a href="https://github.com/albertuskelvin/kalman-filter/blob/main/kalman_filter/constants/dynamic_state_constants.py">DynamicStateMultipleTrueValues1D</a>
 
 - Taking the initial estimate of position & velocity as the `PREVIOUS_STATE` and the initial estimate covariance matrix as the `PREVIOUS_STATE_COVARIANCE_MATRIX`, calculate the predicted state by the following.
 
